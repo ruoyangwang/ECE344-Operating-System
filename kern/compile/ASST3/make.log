@@ -1,0 +1,124 @@
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../dev/generic/console.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../dev/lamebus/emu.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../dev/lamebus/lser.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../dev/lamebus/lhd.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../dev/generic/pseudorand.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../dev/generic/random.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../dev/lamebus/ltimer.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../dev/lamebus/lamebus.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../dev/lamebus/lrandom.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../dev/generic/beep.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../dev/lamebus/ltrace.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../dev/generic/rtclock.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../dev/lamebus/ltimer_att.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../dev/lamebus/con_lser.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../dev/lamebus/lhd_att.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../dev/lamebus/random_lrandom.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../dev/lamebus/rtclock_ltimer.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../dev/lamebus/ltrace_att.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../dev/lamebus/lser_att.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../dev/lamebus/lrandom_att.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../dev/lamebus/emu_att.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../dev/lamebus/beep_ltimer.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../dev/generic/pseudorand_att.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../fs/sfs/sfs_vnode.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../fs/sfs/sfs_fs.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../fs/sfs/sfs_io.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../arch/mips/mips/cache_mips1.S
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../arch/mips/mips/exception.S
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../arch/mips/mips/lamebus_mips.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../arch/mips/mips/interrupt.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../arch/mips/mips/pcb.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../arch/mips/mips/ram.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../arch/mips/mips/spl.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../arch/mips/mips/start.S
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../arch/mips/mips/switch.S
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../arch/mips/mips/syscall.c
+In file included from ../../arch/mips/mips/syscall.c:12:
+../../include/sysio.h: In function `sys_write':
+../../include/sysio.h:10: warning: comparison between signed and unsigned
+../../include/sysio.h:5: warning: unused parameter `filehandle'
+../../include/sysio.h: In function `sys_read':
+../../include/sysio.h:16: warning: unused parameter `filehandle'
+../../include/sysio.h:16: warning: unused parameter `size'
+../../arch/mips/mips/syscall.c: In function `sys_waitpid':
+../../arch/mips/mips/syscall.c:68: warning: comparison between pointer and integer
+../../arch/mips/mips/syscall.c: In function `sys_fork':
+../../arch/mips/mips/syscall.c:155: warning: implicit declaration of function `as_copy'
+../../arch/mips/mips/syscall.c:164: warning: passing arg 4 of `thread_fork' from incompatible pointer type
+../../arch/mips/mips/syscall.c: In function `md_forkentry':
+../../arch/mips/mips/syscall.c:216: warning: implicit declaration of function `as_activate'
+../../arch/mips/mips/syscall.c:202: warning: unused variable `childspace'
+../../arch/mips/mips/syscall.c: In function `mips_syscall':
+../../arch/mips/mips/syscall.c:283: warning: passing arg 2 of `sys_write' makes pointer from integer without a cast
+../../arch/mips/mips/syscall.c:287: warning: passing arg 2 of `sys_read' makes pointer from integer without a cast
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../arch/mips/mips/threadstart.S
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../arch/mips/mips/trap.c
+../../arch/mips/mips/trap.c: In function `kill_curthread':
+../../arch/mips/mips/trap.c:49: warning: implicit declaration of function `sys__exit'
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../arch/mips/mips/tlb_mips1.S
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../../lib/libc/mips-setjmp.S
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../lib/copyinout.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../lib/array.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../lib/bitmap.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../lib/queue.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../lib/kheap.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../lib/kprintf.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../lib/kgets.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../lib/misc.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../lib/ntoh.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../../lib/libc/__printf.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../../lib/libc/snprintf.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../../lib/libc/atoi.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../../lib/libc/bzero.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../../lib/libc/memcpy.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../../lib/libc/memmove.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../../lib/libc/strcat.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../../lib/libc/strchr.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../../lib/libc/strcmp.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../../lib/libc/strcpy.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../../lib/libc/strlen.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../../lib/libc/strrchr.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../../lib/libc/strtok_r.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../dev/init.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../fs/vfs/device.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../fs/vfs/vfscwd.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../fs/vfs/vfslist.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../fs/vfs/vfslookup.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../fs/vfs/vfspath.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../fs/vfs/vnode.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../fs/vfs/devnull.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../thread/hardclock.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../thread/synch.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../thread/scheduler.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../thread/thread.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../main/main.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../main/menu.c
+../../main/menu.c: In function `common_prog':
+../../main/menu.c:141: warning: implicit declaration of function `lock_acquire'
+../../main/menu.c:143: warning: implicit declaration of function `cv_wait'
+../../main/menu.c:145: warning: implicit declaration of function `cv_signal'
+../../main/menu.c:146: warning: implicit declaration of function `lock_release'
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../main/hello.c
+../../main/hello.c: In function `hello':
+../../main/hello.c:5: warning: implicit declaration of function `kprintf'
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../userprog/loadelf.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../userprog/runprogram.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../userprog/uio.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../vm/vm.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../test/arraytest.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../test/bitmaptest.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../test/queuetest.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../test/threadtest.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../test/tt3.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../test/synchtest.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../test/malloctest.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../test/fstest.c
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c ../../compile/ASST3/autoconf.c
+../../conf/newvers.sh ASST3
+*** This is ASST3 build #12 ***
+cs161-gcc   -mno-abicalls -fno-pic -Wall -W -Wwrite-strings -g -nostdinc -I../../include -I../../dev -I.  -ffreestanding -D_KERNEL -G 0 -c vers.c
+cs161-ld   -nostdlib -Ttext 0x80001000 -T ../../arch/mips/conf/ldscript -G 0 console.o emu.o lser.o lhd.o pseudorand.o random.o ltimer.o lamebus.o lrandom.o beep.o ltrace.o rtclock.o ltimer_att.o con_lser.o lhd_att.o random_lrandom.o rtclock_ltimer.o ltrace_att.o lser_att.o lrandom_att.o emu_att.o beep_ltimer.o pseudorand_att.o sfs_vnode.o sfs_fs.o sfs_io.o cache_mips1.o exception.o lamebus_mips.o interrupt.o pcb.o ram.o spl.o start.o switch.o syscall.o threadstart.o trap.o tlb_mips1.o mips-setjmp.o copyinout.o array.o bitmap.o queue.o kheap.o kprintf.o kgets.o misc.o ntoh.o __printf.o snprintf.o atoi.o bzero.o memcpy.o memmove.o strcat.o strchr.o strcmp.o strcpy.o strlen.o strrchr.o strtok_r.o init.o device.o vfscwd.o vfslist.o vfslookup.o vfspath.o vnode.o devnull.o hardclock.o synch.o scheduler.o thread.o main.o menu.o hello.o loadelf.o runprogram.o uio.o vm.o arraytest.o bitmaptest.o queuetest.o threadtest.o tt3.o synchtest.o malloctest.o fstest.o autoconf.o vers.o -o kernel
+cs161-size kernel
+   text	   data	    bss	    dec	    hex	filename
+ 157960	    512	   7748	 166220	  2894c	kernel
